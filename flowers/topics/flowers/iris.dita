@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id="iris">
+<topic>
     <title>Iris</title>
     <body>
         <p><i>From Wikipedia, the free encyclopedia.</i></p>
@@ -44,7 +44,7 @@
             entering a second, deposit the pollen on the stigma; in backing out of a flower, the
             pollen which it bears will not be rubbed off on the stigma of the same flower. </p>
     </body>
-    <topic id="use">
+    <topic>
         <title>Use</title>
         <body>
             <p><b>Irises</b> are extensively grown as ornamental plants in home and botanical
