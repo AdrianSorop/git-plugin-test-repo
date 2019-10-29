@@ -32,7 +32,7 @@
   <?oxy_comment_start author="Mary" timestamp="20120510T115308+0300" comment="We should review the list of glossary terms. I think there are many technical terms in the documentation that need to be addressed."?>
   <topichead navtitle="Glossary">
     <topicmeta>
-      <shortdesc>Definitions of theasdasd most commonly used gardening terms.</shortdesc>
+      <shortdesc>Definitions of theasdasd most commonly used gardening terms. baga text</shortdesc>
     </topicmeta><?oxy_comment_end?>
     <topicref navtitle="Genus" href="concepts/glossaryGenus.dita" keys="genus" print="yes"/>
     <topicref navtitle="Pollination" href="concepts/glossaryPollination.dita" keys="pollination"
