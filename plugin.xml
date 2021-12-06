@@ -7,7 +7,7 @@
  name="Terminology Checker"
  description="Highlights matching terms and allows replacing them with suggested words."
  version="${project.version}"
- vendor="Syncro Soft"
+ vendor="Syncro SoftCEVA"
  class="com.oxygenxml.terminology.checker.HighlightIncorrectTermsPluginDescriptor"
  classLoaderType="preferReferencedResources">
  <runtime>
