@@ -2,23 +2,21 @@
 <!-- The plugin.dtd file is located in the OXYGEN_INSATALL_DIR/plugins directory -->
 <!DOCTYPE plugin SYSTEM "../plugin.dtd">
 
-<plugin
- id="oxygen-terminology-checker"
- name="Terminology Checker"
+<plugin id="oxygen-terminology-checker" name="Terminology Checker"
  description="Highlights matching terms and allows replacing them with suggested words."
- version="${project.version}"
- vendor="Syncro Soft"
+ version="${project.version}" vendor="ValoareDinTestAutomat"
  class="com.oxygenxml.terminology.checker.HighlightIncorrectTermsPluginDescriptor"
  classLoaderType="preferReferencedResources">
  <runtime>
-        <library name="lib/${project.build.finalName}.jar"/>
-        <library name="target/classes"/>
-        <librariesFolder name="lib"/>
-        <librariesFolder name="target/lib"/>
+  <library name="lib/${project.build.finalName}.jar"/>
+  <library name="target/classes"/>
+  <librariesFolder name="lib"/>
+  <librariesFolder name="target/lib"/>
  </runtime>
- 
- <extension type="WorkspaceAccess"  class="com.oxygenxml.terminology.checker.HighlightIncorrectTermsPluginExtension"/>
- <extension type="OptionPage" class="com.oxygenxml.terminology.checker.painter.options.page.OptionsPageExtension"/>
+ <extension type="WorkspaceAccess"
+  class="com.oxygenxml.terminology.checker.HighlightIncorrectTermsPluginExtension"/>
+ <extension type="OptionPage"
+  class="com.oxygenxml.terminology.checker.painter.options.page.OptionsPageExtension"/>
  <extension type="AdditionalFrameworks" path="framework"/>
  <toolbar id="OnAndOffButtonForPlugin" initialSide="NORTH" initialRow="1"/>
  <view id="SideViewHelper" initialSide="WEST" initialRow="0"/>
